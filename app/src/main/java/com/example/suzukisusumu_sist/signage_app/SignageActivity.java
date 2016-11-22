@@ -42,6 +42,7 @@ public class SignageActivity extends AppCompatActivity implements AsyncTaskGetJs
         return 0;
     }
 
+    //JSONを取得後に実行される
     @Override
     public void onPostExecute(String result){
         Log.d("async urls",result);
